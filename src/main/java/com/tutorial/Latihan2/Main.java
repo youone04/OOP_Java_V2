@@ -94,6 +94,7 @@ class Armor{
 }
 
 //https://www.youtube.com/watch?v=bFVfaWXGTYs&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=8
+//https://www.youtube.com/watch?v=zwDMHJzTUzs&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=12
 public class Main {
 
     /**

@@ -110,8 +110,6 @@ public class Main {
         //objek weapon
         Weapon pedang = new Weapon("pedang",15);
         Weapon pistol = new Weapon("pistol",25);
-
-        
         //objek armor
         Armor bajuBesi = new Armor("baju besi",10);
         

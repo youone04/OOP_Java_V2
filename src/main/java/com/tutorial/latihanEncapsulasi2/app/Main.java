@@ -53,6 +53,7 @@ class Player{
         System.out.println("Level : "+ this.level);
         System.out.println("Health : "+ this.getHealth() +" /"+ this.maxHealth());
         System.out.println("Attack : "+ this.getAttackPower());
+        //tambahan dari latihan 1
         System.out.println("Alive : "+ this.isAlive + "\n");
     }
     //tambahan dr latihan 1
@@ -90,7 +91,11 @@ class Player{
         //check is alive
         if(this.getHealth() <= 0){
             this.isAlive = false;
+            System.out.println("total ="+ this.maxHealth());
+//            System.out.println("totalDamage "+ this.totalDamage);
             this.totalDamage = this.maxHealth();
+//            System.out.println("totalDamage "+ this.totalDamage);
+
         }
         this.display();
         

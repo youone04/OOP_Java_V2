@@ -9,7 +9,7 @@ import com.tutorial.pengenalanInheritance.app.HeroStrenght;
  *
  * @author user
  */
-//https://www.youtube.com/watch?v=CXqOqqe7zjo&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=20
+//https://www.youtube.com/waOqqe7zjo&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=20tch?v=CXqOqqe7zjo&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=20
 public class Main {
 
     /**

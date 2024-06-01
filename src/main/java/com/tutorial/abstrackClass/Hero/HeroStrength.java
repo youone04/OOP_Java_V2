@@ -8,13 +8,12 @@ package com.tutorial.abstrackClass.Hero;
  *
  * @author user
  */
-public class HeroIntel extends Hero {
-    
-    public HeroIntel(String name){
+public class HeroStrength extends Hero {
+     public HeroStrength(String name){
         super(name);
     }
     
     public void levelUp(){
-        this.setLevel(2);
+        this.setLevel(10);
     }
 }

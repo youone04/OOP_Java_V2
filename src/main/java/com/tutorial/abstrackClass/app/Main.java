@@ -6,6 +6,7 @@ package com.tutorial.abstrackClass.app;
 import com.tutorial.abstrackClass.Hero.Hero;
 import com.tutorial.abstrackClass.Hero.HeroIntel;
 import com.tutorial.abstrackClass.Hero.HeroAgility;
+import com.tutorial.abstrackClass.Hero.HeroStrength;
 
 
 
@@ -14,6 +15,7 @@ import com.tutorial.abstrackClass.Hero.HeroAgility;
  * @author user
  */
 //https://www.youtube.com/watch?v=7N3lxM05cw0&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=28
+//https://www.youtube.com/watch?v=meuCc-RVGyI&list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i&index=29
 public class Main {
 
     /**
@@ -31,8 +33,18 @@ public class Main {
         
         //membuat objek dari kelas abstract
         //tidak bisa membuat objek dari classa abstract
-//        Hero hero3 = new Hero("ucup");
-//        hero3.display();
+        //Hero hero3 = new Hero("ucup");
+        //hero3.display();
+        
+        hero1.levelUp();
+        hero2.levelUp();
+        
+        hero1.display();
+        hero2.display();
+        
+        HeroStrength hero4 = new HeroStrength("kadal");
+        hero4.levelUp();
+        hero4.display();
         
     }
     

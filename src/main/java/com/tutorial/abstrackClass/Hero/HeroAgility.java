@@ -14,4 +14,8 @@ public class HeroAgility extends Hero{
         super(name);
     }
     
+    public void levelUp(){
+        this.setLevel(1);
+    }
+    
 }
